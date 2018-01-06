@@ -1,17 +1,43 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>STORIES APP</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
+  <h3>STORY HOUR Welcomes You</h3>
+  
+  <ion-img width="200" height="100" src="assets/imgs/p6.jpg"></ion-img>
   <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
+    
+  </p> 
+
   <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
+    ALL ABOUT LOCAL STORY...
   </p>
+<button ion-button small ion-button round (click)="next()" color="primary">View Our Pages</button>
+
+
+
+
+
+
+<ion-slides pager>
+
+    <ion-slide style="background-color: rgba(0, 113, 128, 0.767)">
+      <h1>TALES FROM DIFFERENT COUNTRIES</h1>
+      <p>The untold stories</p>
+    </ion-slide>
+  
+    <ion-slide style="background-color: blue">
+      <h1>AFRICA STORIES</h1>
+      <p>The unity of love stories</p>
+    </ion-slide>
+  
+    <ion-slide style="background-color:blacks">
+      <h1>WESTERN STORIES</h1>
+      <p>The love of money stories</p>
+    </ion-slide>
+  
+  </ion-slides>
 </ion-content>
